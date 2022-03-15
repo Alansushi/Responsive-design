@@ -1,0 +1,86 @@
+/* Estilo de encabezado */
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+
+#boton3{
+    height: 20%;
+    margin-left: auto;
+}
+
+@media (min-width:320px)and (max-width:768px){
+#imghed{
+    height: 20%;
+    margin-right: auto;
+}
+#divtext{
+    width: auto;
+    margin-left: 10px;
+    
+}
+.container{
+    color: white;
+    background-color:#4a25aa ;
+    border: 1px solid #4a25aa;
+    border-radius: 20px;
+    height: 460px;
+    width: 90%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+#boton{
+    padding: 15px;
+    background-color: white;
+    color: #4a25aa;
+    width: 140px;
+    border-radius: 50px;
+}
+#personas{
+    height: 100%;
+    width: auto;
+    
+}
+}
+@media (min-width:10px) and (max-width:319px){
+    #imghed{
+        height: 20%;
+        margin-right: auto;
+    }
+    
+    .container{
+        color: white;
+        background-color:#4a25aa ;
+        border: 1px solid #4a25aa;
+        border-radius: 20px;
+        height: 460px;
+        padding: 30px;
+        display: block;
+        width: 90%;
+       
+        
+      
+    }
+    #boton{
+        padding: 15px;
+        background-color: white;
+        color: #4a25aa;
+        width: 140px;
+        border-radius: 50px;
+    }
+    #personas{
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+
+}
+    
